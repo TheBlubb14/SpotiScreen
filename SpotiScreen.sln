@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotiScreen", "SpotiScreen\SpotiScreen.csproj", "{2FD2E632-4989-48DE-9990-8BC2FC31281D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD2E632-4989-48DE-9990-8BC2FC31281D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD2E632-4989-48DE-9990-8BC2FC31281D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD2E632-4989-48DE-9990-8BC2FC31281D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD2E632-4989-48DE-9990-8BC2FC31281D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAD47C8A-4828-40CE-BCE1-BD9DB3F627CA}
+	EndGlobalSection
+EndGlobal
