@@ -20,6 +20,6 @@
         DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Visibility="{Binding NeedAuthentication}" Content="authenticate"/>
+        <TextBlock Text="WIP Settings" Height="Auto" Width="Auto"/>
     </Grid>
 </Window>

@@ -8,8 +8,7 @@ namespace SpotiScreen.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        public bool NeedAuthentication { get; set; }
-
+        // TODO: user setting
         private string secretLocation = @"..\..\..\spotify.secret";
 
         private Screen screen;
@@ -24,7 +23,7 @@ namespace SpotiScreen.ViewModel
             {
                 if (File.Exists(secretLocation))
                 {
-                    var secret = JsonConvert.DeserializeObject<SpotifySecrets>(secretLocation);
+                    var secret = JsonConvert.DeserializeObject<SpotifySecrets>(File.ReadAllText(secretLocation));
                     screen = new Screen(secret);
                 }
             }
